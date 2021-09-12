@@ -1,0 +1,29 @@
+Tasks list
+1. Create an empty class.
+2. Initialize an instance of the class and assign it to a variable
+3. Print the class to which the initialized variable belongs
+4. Verify that the initialized variable belongs to the declared class
+5. Declare the Person class with the initialize method that would accept the name parameter. In the initialize method, assign the resulting name parameter to the instance variable @name.
+6. Declare the getter method in the Person class with the same name as the variable name of the instance of the class that would return @name, and declare the getter method with any other name that would also return the instance variable of the @name class.
+7. Initialize an instance of the class, using the new method on the Person class, passing any name to the initializer and call the declared instance of the two methods announced above, output the result to the console.
+8. Repeat step five, but this time declare getter using the magic method attr_reader and also output the result to the console
+9. In the above-mentioned Person class, declare a method that would return the greeting "Hello this is <here is the name you passed during initialization>". Call the method on the instance and hang it in the console.
+10. Announce in the class Person setter, which would take a new name and change it. Rename with setter and display the changed name in the console.
+11. Use the attr_writter magic method instead of the getter method in the Person class.
+12. Instead of the attr_reader and attr_writter magic methods in the Person class, use the attr_accessor magic method
+13. Announce a new class. Announce three different class methods in the classroom, the two ways that would return any text. Call methods in class, and display the result in the console
+14. Declare a new class in which to declare three methods that would return any text. Methods must have different scope (public, private, protected). Initialize an instance of this class, and try to call each method on the instance in turn.
+15. Modify the previous example so that the public method calls private and protected methods, and call the public method on the instance. Make sure that private and secure methods are only available for use in the middle of the classroom and are not available from the outside.
+16. Declare a new Greeter class, declare a say_hello method that returns the text "hello"
+17. Announce a new RubyGreeter class that would inherit from the Greeter class. Initialize an instance of the RubyGreeter class and call the say_hello method on it
+18. Override the say_hello method in the RubyGreeter class, which would return the text "Hello from Ruby", and call the method on the RubyGreeter class instance again.
+19. Declare an initalize method in the Greeter class that takes the name value. Assign a value to an instance variable. Write a greet method that would be welcome using this value. Initialize the method of the Greeter class, and call the declared method on it. Initialize an instance of the RubyGreeter class and also call this method.
+20. Add an initialize method to the RubyGreeter class that takes two name and age parameters. In the initialize method, assign the age parameter to the instance variable, and pass the name parameter to the initializer using the super keyword. Override the greet method in the RubyGreeter class, which would be welcome using the passed two parameters name and age.
+21. Declare any constant in the RubyGreeter class and call it, display the result in the console.
+
+
+Additionally:
+
+1. Declare the class Point initializer which would take two parameters x, y - the coordinates of the point, and redefine the operators "+", "-" and "*". Declare an instance of the Point class and use the overridden operators to add to the coordinates, subtract from the coordinates, and multiply the coordinates by any number
+2. Announce any class. Initialize multiple instances of it. Write a class method that returns the number of initialized instances. (Implemented using a class variable) Slide 16
+3. Investigate the difference between the keyword super and super ()
